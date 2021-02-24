@@ -120,7 +120,7 @@ a{
 }
 .contendor-imagen .tianguis-titulo{
 
-    background-color: crimson;
+    background-color: rgb(51, 204, 51);
     display:block;
     width:100%;
     padding:50px;
@@ -165,6 +165,20 @@ a{
     .contendor-imagen .tianguis-titulo{
         font-size:45px;
         padding:20px;
+        margin:0;
+    }
+    .contendor-imagen img{
+        margin-right:5px;
+        width:100px;
+    }
+}
+@media (max-width:500px){
+    .contendor-imagen{
+        margin-bottom:8px;
+    }
+    .contendor-imagen .tianguis-titulo{
+        font-size:20px;
+        padding:10px;
         margin:0;
     }
     .contendor-imagen img{
