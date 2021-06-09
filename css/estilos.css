@@ -1,7 +1,7 @@
 body{
     margin:0px;
     padding:0px;
-    background-color:rgb(255, 255, 102);
+    background-color:#2171b2;
 }
 a{
     text-decoration: none;
@@ -41,18 +41,18 @@ a{
     flex-direction: column;
 }
 .type a {
-    color:rgb(255, 51, 51);
+    color:#fff;
     margin:5px 0px;
     font-weight: 900;
     letter-spacing: 0.5px;
     padding-right: 8px;
 }
 .type span{
-    color:rgb(255, 51, 51);
+    color:#fff;
     font-weight: 900;
 }
 .price{
-    color:#000;
+    color:#fff;
     font-weight: 900;
     font-size: 1.1rem;
     font-family: fantasy;
@@ -65,7 +65,7 @@ a{
     transform: translate(-50%,-50%);
     width:100%;
     height:100%;
-    background-color: rgba(255, 51, 51,0.6);
+    background-color: rgba(224,233,243,0.6);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -86,7 +86,7 @@ a{
 }
 .buy-btn:hover{
     color:#fff;
-    background-color: crimson;
+    background-color: #2171b2;
     transition: all ease 0.3s;
 }
 .overlay{
@@ -120,7 +120,7 @@ a{
 }
 .contendor-imagen .tianguis-titulo{
 
-    background-color: rgb(51, 204, 51);
+    background-color:#097bff;
     display:block;
     width:100%;
     padding:50px;
