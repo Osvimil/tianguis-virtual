@@ -160,6 +160,9 @@ a{
         flex-direction: row-reverse;
         
     }
+    .slider{
+        margin-top:-10px;
+    }
 }
 @media (max-width:700px){
     .contendor-imagen{
@@ -174,6 +177,9 @@ a{
         margin-right:5px;
         width:180px;
     }
+    .slider{
+        margin-top:-10px;
+    }
 }
 @media (max-width:500px){
     .contendor-imagen{
@@ -187,5 +193,8 @@ a{
     .contendor-imagen img{
         margin-right:5px;
         width:100px;
+    }
+    .slider{
+        margin-top:-10px;
     }
 }
