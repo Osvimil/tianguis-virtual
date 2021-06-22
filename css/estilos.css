@@ -150,8 +150,8 @@ a{
         margin:0;
     }
     .contendor-imagen img{
-        margin-right:5px;
-        width:200px;
+        margin-right:0px;
+        width:190px;
     }
     .cs-hidden{
         display:flex;
@@ -161,7 +161,7 @@ a{
 }
 @media (max-width:700px){
     .contendor-imagen{
-        margin-bottom:10px;
+        margin-bottom:5px;
     }
     .contendor-imagen .tianguis-titulo{
         font-size:45px;
@@ -170,12 +170,12 @@ a{
     }
     .contendor-imagen img{
         margin-right:5px;
-        width:200px;
+        width:180px;
     }
 }
 @media (max-width:500px){
     .contendor-imagen{
-        margin-bottom:4px;
+        margin-bottom:2px;
     }
     .contendor-imagen .tianguis-titulo{
         font-size:20px;
@@ -184,6 +184,6 @@ a{
     }
     .contendor-imagen img{
         margin-right:5px;
-        width:200px;
+        width:100px;
     }
 }
