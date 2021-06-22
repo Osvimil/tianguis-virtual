@@ -110,13 +110,14 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top:0;
 }
 /*estilos de la imagen*/
 .contendor-imagen{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row-reverse;
 }
 .contendor-imagen .tianguis-titulo{
 
@@ -128,9 +129,10 @@ a{
     color:#fff;
     text-align:center;
     margin:5px 0px;
-    font-weight: 700;
+    font-weight: 100;
     letter-spacing: 0.5px;
     margin-top:0;
+    font-family:Roboto, Helvetica, Arial,sans-serif;
 }
 
 .contendor-imagen img{
