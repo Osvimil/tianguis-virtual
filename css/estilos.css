@@ -110,7 +110,8 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top:-60px;
+    margin-top:-25px;
+    
 }
 /*estilos de la imagen*/
 .contendor-imagen{
@@ -118,10 +119,11 @@ a{
     justify-content: center;
     align-items: center;
     flex-direction: row-reverse;
+    background-color:#097bff;
 }
 .contendor-imagen .tianguis-titulo{
 
-    background-color:#097bff;
+    
     display:block;
     width:100%;
     padding:50px;
@@ -147,7 +149,7 @@ a{
         transition-timing-function: ease-out;
     }
     .contendor-imagen .tianguis-titulo{
-        font-size:40px;
+        font-size:30px;
         padding:40px;
         margin:0;
     }
@@ -161,7 +163,7 @@ a{
         
     }
     .slider{
-        margin-top:-75px;
+        margin-top:-25px;
     }
 }
 @media (max-width:700px){
@@ -169,7 +171,7 @@ a{
         margin-bottom:5px;
     }
     .contendor-imagen .tianguis-titulo{
-        font-size:45px;
+        font-size:20px;
         padding:20px;
         margin:0;
     }
@@ -178,7 +180,7 @@ a{
         width:180px;
     }
     .slider{
-        margin-top:-75px;
+        margin-top:-25px;
     }
 }
 @media (max-width:500px){
@@ -195,6 +197,6 @@ a{
         width:100px;
     }
     .slider{
-        margin-top:-75px;
+        margin-top:-25px;
     }
 }
