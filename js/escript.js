@@ -3,7 +3,7 @@ $(document).ready(function(){
         autoWidth:true,
         loop:true,
         onSliderLoad:function(){
-            $('#autoWidth').removeClass('cs-hiddeb');
+            $('#autoWidth').removeClass('cs-hidden');
         }
     });
 });

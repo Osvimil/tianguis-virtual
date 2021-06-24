@@ -110,9 +110,9 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top:-25px;
-    
+    margin-top:-25px;  
 }
+
 /*estilos de la imagen*/
 .contendor-imagen{
     display: flex;
@@ -122,8 +122,6 @@ a{
     background-color:#097bff;
 }
 .contendor-imagen .tianguis-titulo{
-
-    
     display:block;
     width:100%;
     padding:50px;
